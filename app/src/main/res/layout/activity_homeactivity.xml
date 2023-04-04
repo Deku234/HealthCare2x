@@ -12,37 +12,20 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizental="true"
+
         android:layout_margin="12dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="28dp"
         android:text="24*7 HealthKare"
         android:textColor="@color/purple_700"
         android:textSize="48sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="75dp" />
-
-    <GridLayout
-        android:layout_width="377dp"
-        android:layout_height="564dp"
-
-        android:layout_margin="20dp"
-        android:columnCount="2"
-        android:rowCount="3"
-        tools:layout_editor_absoluteX="18dp"
-        tools:layout_editor_absoluteY="151dp" >
-
-
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cardlabTest"
-                    android:layout_width="wrap_content"
-                    android:layout_hight="wrap_content"
-                    android:layout_row="0"
-                    android:layout_column="1"
-                    android:layout_gravity="fill"
-                    app:cardBackgroundColor="@color/teal_200"
-                    app:cardCornerRadius="8dp"
-                    app:cardElevation="8dp"
-                    >
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
